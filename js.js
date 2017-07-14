@@ -10,7 +10,12 @@ function number(){
     else if(input.value > 20 && input.value< 65){
         alert('Квартира находится в 2-м подьезде!')
     }
-    else if(input.value > 65 && input.value< 81){
+    else if(input.value > 64 && input.value< 81){
         alert('Квартира находится в 3-м подьезде!')
     }
+    else{
+        alert("В подъезде нет квартир с таким номером, повторите ввод");
+    }
 }
+
+ 
